@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Nanum+Gothic:wght@400;700;800&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link type="image/x-icon" rel="icon" href="./icon/-coffee-container_89755.ico">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-main">
+                    <a href="https://rolling-scopes-school.github.io/tjwgmk5g-JSFE2023Q4/coffee-house/" class="header-main__logo"><img src="./icon/logo.png" alt="alt"></a>
+                    <ul class="header-main__list">
+                        <li><a href="#part1">Favorite coffee</a></li>
+                        <li><a href="#part2">About</a></li>
+                        <li><a href="#part3">Mobile app</a></li>
+                        <li><a href="#part4">Contact us</a></li>
+                    </ul>
+                    <a href="https://rolling-scopes-school.github.io/tjwgmk5g-JSFE2023Q4/coffee-house/menu.html" class="header-main__link header-main__link-menu">
+                        Menu
+                        <img src="./icon/coffee-cup.svg" alt="alt">
+                    </a>
+                    <div class="header-burger">
+                        <div class="header-burger__span">
+                            <span></span><span></span>
+                        </div>
+                    </div>
+                    <div class="popup-burger">
+                        <ul class="popup-burger__list">
+                            <li><a href="#part1">Favorite coffee</a></li>
+                            <li><a href="#part2">About</a></li>
+                            <li><a href="#part3">Mobile app</a></li>
+                            <li><a href="#part4">Contact us</a></li>
+                        </ul>
+                        <a href="https://rolling-scopes-school.github.io/tjwgmk5g-JSFE2023Q4/coffee-house/menu.html" class="popup-burger__link">
+                            Menu
+                            <img src="./icon/coffee-cup.svg" alt="alt">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main-menu">
+                <h1 class="main-menu__title">Behind each of our cups hides an <span>amazing surprise</span></h1>
+                <div class="menu-content">
+                    <div class="content-tags">
+                        <a href="#" data-tab="tab_1" class="tags-btn btn-coffe _active">
+                            <img class="tags-btn__icon" src="./icon/menu-page/menu-tags1.svg" alt="alt">
+                            <div class="tags-btn__name">Coffee</div>
+                        </a>
+                        <a href="#" data-tab="tab_2" class="tags-btn btn-tea">
+                            <img class="tags-btn__icon" src="./icon/menu-page/menu-tags2.svg" alt="alt">
+                            <div class="tags-btn__name">Tea</div>
+                        </a>
+                        <a href="#" data-tab="tab_3" class="tags-btn btn-dessert">
+                            <img class="tags-btn__icon" src="./icon/menu-page/menu-tags3.svg" alt="alt">
+                            <div class="tags-btn__name">Dessert</div>
+                        </a>
+                    </div>
+                    <div id="tab_1" data-id="coffee" class="content-items content-items__coffee row-indent _active">
+                        <!-- <div class="col-3 col-md-6 col-xs-12 col-indent">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/coffee-1.jpg" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Irish coffee</div>
+                                    <div class="items-content__description">Fragrant black coffee with Jameson Irish whiskey and whipped milk</div>
+                                    <div class="items-content__price">$7.00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/coffee-2.jpg" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Kahlua coffee</div>
+                                    <div class="items-content__description">Classic coffee with milk and Kahlua liqueur under a cap of frothed milk</div>
+                                    <div class="items-content__price">$7.00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/coffee-3.jpg" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Honey raf</div>
+                                    <div class="items-content__description">Espresso with frothed milk, cream and aromatic honey</div>
+                                    <div class="items-content__price">$5.50</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/coffee-4.jpg" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Ice cappuccino</div>
+                                    <div class="items-content__description">Cappuccino with soft thick foam in summer version with ice</div>
+                                    <div class="items-content__price">$5.00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent col-indent-hidden992">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/coffee-5.jpg" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Espresso</div>
+                                    <div class="items-content__description">Classic black coffee</div>
+                                    <div class="items-content__price">$4.50</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent col-indent-hidden992">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/coffee-6.jpg" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Latte</div>
+                                    <div class="items-content__description">Espresso coffee with the addition of steamed milk and dense milk foam</div>
+                                    <div class="items-content__price">$5.50</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent col-indent-hidden992">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/coffee-7.jpg" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Latte macchiato</div>
+                                    <div class="items-content__description">Espresso with frothed milk and chocolate</div>
+                                    <div class="items-content__price">$5.50</div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent col-indent-hidden992">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/coffee-8.jpg" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Coffee with cognac</div>
+                                    <div class="items-content__description">Fragrant black coffee with cognac and whipped cream</div>
+                                    <div class="items-content__price">$6.50</div>
+                                </div>
+                            </div>
+                        </div>  -->
+                    </div>
+                    <div id="tab_2" data-id="tea" class="content-items content-items__tea row-indent">
+                        <!-- <div class="col-3 col-md-6 col-xs-12 col-indent">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/tea-1.png" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Moroccan</div>
+                                    <div class="items-content__description">Fragrant black tea with the addition of tangerine, cinnamon, honey, lemon and mint</div>
+                                    <div class="items-content__price">$4.50</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/tea-2.png" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Ginger</div>
+                                    <div class="items-content__description">Original black tea with fresh ginger, lemon and honey</div>
+                                    <div class="items-content__price">$5.00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/tea-3.png" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Cranberry</div>
+                                    <div class="items-content__description">Invigorating black tea with cranberry and honey</div>
+                                    <div class="items-content__price">$5.00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/tea-4.png" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Sea buckthorn</div>
+                                    <div class="items-content__description">Toning sweet black tea with sea buckthorn, fresh thyme and cinnamon</div>
+                                    <div class="items-content__price">$5.50</div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div id="tab_3" data-id="dessert" class="content-items content-items__dessert row-indent">
+                        <!-- <div class="col-3 col-md-6 col-xs-12 col-indent">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/dessert-1.png" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Marble cheesecake</div>
+                                    <div class="items-content__description">Philadelphia cheese with lemon zest on a light sponge cake and red currant jam</div>
+                                    <div class="items-content__price">$3.50</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/dessert-2.png" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Red velvet</div>
+                                    <div class="items-content__description">Layer cake with cream cheese frosting</div>
+                                    <div class="items-content__price">$4.00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/coffee-3.jpg" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Cheesecakes</div>
+                                    <div class="items-content__description">Soft cottage cheese pancakes with sour cream and fresh berries and sprinkled with powdered sugar</div>
+                                    <div class="items-content__price">$4.50</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/dessert-4.png" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Creme brulee</div>
+                                    <div class="items-content__description">Delicate creamy dessert in a caramel basket with wild berries</div>
+                                    <div class="items-content__price">$4.00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent col-indent-hidden992">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/dessert-5.png" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Pancakes</div>
+                                    <div class="items-content__description">Tender pancakes with strawberry jam and fresh strawberries</div>
+                                    <div class="items-content__price">$4.50</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent col-indent-hidden992">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/dessert-6.png" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Honey cake</div>
+                                    <div class="items-content__description">Classic honey cake with delicate custard</div>
+                                    <div class="items-content__price">$4.50</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent col-indent-hidden992">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/dessert-7.png" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Chocolate cake</div>
+                                    <div class="items-content__description">Cake with hot chocolate filling and nuts with dried apricots</div>
+                                    <div class="items-content__price">$5.50</div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-xs-12 col-indent col-indent-hidden992">
+                            <div class="items-content">
+                                <div class="items-content__picture"><img src="./icon/menu-page/dessert-8.png" alt="alt"></div>
+                                <div class="content-wrap">
+                                    <div class="items-content__title">Black forest</div>
+                                    <div class="items-content__description">A combination of thin sponge cake with cherry jam and light chocolate mousse</div>
+                                    <div class="items-content__price">$6.50</div>
+                                </div>
+                            </div>
+                        </div>  -->
+                    </div>
+                    <div class="indent-more">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M21.8883 13.5C21.1645 18.3113 17.013 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C16.1006 2 19.6248 4.46819 21.1679 8" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M17 8H21.4C21.7314 8 22 7.73137 22 7.4V3" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </main>
+        <footer id="part4" class="footer">
+            <div class="container">
+            <div class="footer-content">
+                <div class="content-social">
+                    <div class="content-social__title">Sip, Savor, Smile. <span>It’s coffee time!</span></div>
+                    <div class="content-social social-icons">
+                       <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                       </a> 
+                       <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" stroke="#E1D4C9"/>
+                            <path d="M17.5 6.51L17.51 6.49889" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                       </a> 
+                       <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M17 2H14C12.6739 2 11.4021 2.52678 10.4645 3.46447C9.52678 4.40215 9 5.67392 9 7V10H6V14H9V22H13V14H16L17 10H13V7C13 6.73478 13.1054 6.48043 13.2929 6.29289C13.4804 6.10536 13.7348 6 14 6H17V2Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                       </a> 
+                    </div>
+                </div>
+                <div class="content-contact">
+                    <div class="content-contact__title">Contact us</div>
+                    <div class="content-contact contact-adress">
+                        <a target="_blank" href="https://www.google.com/maps/search/8558+Green+Rd/@41.5330998,-81.5509559,14z?entry=ttu" class="adress-wrap">
+                            <div class="adress-wrap__icon"><img src="./icon/pin-alt.svg" alt="alt"></div>
+                            <div class="adress-wrap__text">8558 Green Rd.,  LA</div>
+                        </a>
+                        <a href="tel:+16035550123" class="adress-wrap">
+                            <div class="adress-wrap__icon"><img src="./icon/phone.svg" alt="alt"></div>
+                            <div class="adress-wrap__text">+1 (603) 555-0123</div>
+                        </a>
+                        <a href="#" class="adress-wrap adress-wrap-non">
+                            <div class="adress-wrap__icon"><img src="./icon/clock.svg" alt="alt"></div>
+                            <div class="adress-wrap__text">Mon-Sat: 9:00 AM – 23:00 PM</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+        <div class="modal" id="modal">
+            <!-- <div class="modal-wrapper">
+                <div class="modal__icon"><img src="./icon/menu-page/coffee-1.jpg" alt="alt"></div>
+                <div class="modal-information">
+                <div class="modal-information__title">Irish coffee</div>
+                <div class="modal-information__subtitle">Fragrant black coffee with Jameson Irish whiskey and whipped milk</div>
+                <div class="modal-information__size">
+                    Size
+                    <div class="modal-information__size-wrapper">
+                        <div class="modal-information__size-item _active"><span>S</span>200 ml</div>
+                        <div class="modal-information__size-item"><span>M</span>300 ml</div>
+                        <div class="modal-information__size-item"><span>L</span>400 ml</div>
+                    </div>
+                </div>
+                <div class="modal-information__additives">
+                    Additives
+                    <div class="modal-information__size-wrapper">
+                        <div class="modal-information__additives-item"><span>1</span>Sugar</div>
+                        <div class="modal-information__additives-item"><span>2</span>Cinnamon</div>
+                        <div class="modal-information__additives-item"><span>3</span>Syrup</div>
+                    </div>
+                </div>
+                <div class="modal-information__price">
+                    <span>Total:</span>
+                    <span>$7.00</span>
+                </div>
+                <div class="modal-information-alert">
+                    <div class="modal-information-alert__icon"><img src="./icon/menu-page/info-empty.svg" alt="alt"></div>
+                    <div class="modal-information-alert__text">The cost is not final. Download our mobile app to see the final price and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.</div>
+                </div>
+                <button class="modal-information__btn">Close</button>
+            </div>
+            </div>     -->
+        </div>
+
+        <script src="script.js"></script>
+        
+    </div>
+</body>
+</html>
